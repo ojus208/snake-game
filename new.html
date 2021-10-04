@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this is my title</title>
+    <style>
+                body {
+            margin: 0px;
+
+        }
+
+        .navbar {
+            border-top: 3px solid orange;
+            background-color: rgb(44, 44, 44);
+/* <!--            position: fixed;--> */
+            width: 100%;
+            height: 50px;
+/* <!--            box-shadow: 10px 10px 5px lightgray, -10px 10px 8px lightgray;--> */
+            overflow: hidden;
+        }
+
+        .left {
+            float: left;
+            padding: 10px;
+            color:white;
+        }
+
+        .icon {
+            color: orange;
+            padding-right: 5px;
+        }
+
+        .logo {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .right {
+            float: right;
+            padding: 10px;
+
+        }
+
+        .buttonlogin {
+            background-color: orange;
+            color: white;
+            border-radius: 5px;
+            margin: auto 10px;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .nav_icon {
+            font-size: 30px;
+            color: orange;
+            display: none;
+        }
+
+        .buttonlogin:hover {
+            background-color: whitesmoke;
+            color: orange;
+        }
+        .etext{
+            width:500px;
+            height:200px;
+        }
+        .mydiv{
+            margin: auto;
+            /* margin: auto; */
+            width: 500px;
+        }
+        input{
+            margin: 10px 0px;
+        }
+        button{
+            display: flex;
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+         <div class="navbar">
+            <div class="left">
+                <button id="bar" onclick="hide()">
+                    <a href="" class="icon"><i class="fas fa-bars"></i></a>
+                </button>
+                <a href="" class="logo"><b>C</b>ODE<b>A</b>DDICTED</a>
+            </div>
+            <div class="right">
+                <input type="text">
+                <a href="" class="buttonlogin">LOGIN
+                </a>
+                <a href="" class="buttonlogin">SIGNUP</a>
+                <a href="_" class="nav_icon"><i class="fas fa-search"></i></a>
+                <a href="_" class="nav_icon"><i class="fas fa-home"></i></a>
+            </div>
+        </div>
+    </nav>
+    <form>
+        <div class = "mydiv">
+            <h1>Enter The Text </h1>
+            <input class="etext"><br>
+            <input type="checkbox">
+            <label>remove puncutaion</label><br>
+            <input type="checkbox">
+            <label>new line remover</label><br>
+            <input type="checkbox">
+            <label>extra spaces remover</label><br>
+            <input type="checkbox">
+            <label>capatilize function</label><br>
+            <button>Apply</button>
+        </div>
+    </form>
+
+</body>
+
+
+</html>
